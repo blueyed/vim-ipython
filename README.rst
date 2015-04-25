@@ -28,15 +28,15 @@ If you can launch ``ipython qtconsole`` or ``ipython kernel``, and
 -----------------
 Quickstart Guide:
 -----------------
-Start ``ipython qtconsole`` [*]_. Source ``ipy.vim`` file, which provides new
-IPython command::
+Start ``ipython qtconsole`` [*]_ and source the ``ipy.vim`` file, which
+provides the ``IPython`` command::
 
   :source ipy.vim
   (or copy it to ~/.vim/ftplugin/python to load automatically)
 
   :IPython
 
-The ``:IPython`` command allows you to put the full connection string. For
+The ``:IPython`` command allows you to provide the full connection string. For
 IPython 0.11, it would look like this::
 
   :IPython --existing --shell=41882 --iopub=43286 --stdin=34987 --hb=36697

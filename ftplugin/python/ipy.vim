@@ -10,8 +10,8 @@
 " Quickstart Guide:
 " -----------------
 " Start `ipython qtconsole`, `ipython console`, or  `ipython notebook` and
-" open a notebook using you web browser.  Source this file, which provides new
-" IPython command
+" open a notebook using your web browser.  Then source this file, which
+" provides the `IPython` command:
 "
 "   :source ipy.vim
 "   :IPython
